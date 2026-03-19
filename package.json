@@ -1,0 +1,17 @@
+{
+  "name": "Проект JS",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "../node_modules/.bin/vite",
+    "build": "../node_modules/.bin/vite build",
+    "preview": "../node_modules/.bin/vite preview"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-imagemin": "^9.2.0",
+    "prettier": "^3.3.1",
+    "vite": "^5.1.6"
+  }
+}
