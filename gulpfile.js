@@ -3,7 +3,7 @@ import imagemin from 'gulp-imagemin';
 
 function optimizeImages() {
   return gulp
-    .src("src/images/*.{jpg,jpeg,png}")
+    .src("src/images/*")
     .pipe(imagemin())
     .pipe(gulp.dest('dist/images'));
 }
